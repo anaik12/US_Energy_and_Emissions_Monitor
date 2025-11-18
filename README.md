@@ -15,6 +15,18 @@ Layout:
 
 ## Getting Started
 
+## Prerequisites
+
+- Git
+- Node.js (LTS) + npm
+- Yarn (`npm install --global yarn`) or use npm scripts
+- Text editor (VS Code recommended)
+- AI provider setup (pick one):
+  - **Ollama (local LLM)** – install Ollama, pull a model (e.g., `ollama pull llama3`), and keep the service running.
+  - **OpenAI** – create an API key and note it for `.env`.
+
+## Getting Started
+
 ### 1. Download the project
 
 ```bash
@@ -43,8 +55,8 @@ yarn --cwd server install   # equivalent to (cd server && yarn install)
 
 | Option | Steps |
 | --- | --- |
-| **OpenAI** | Set `OPENAI_API_KEY` in `.env` or environment before launching the server. |
 | **Ollama (local LLM)** | Install Ollama, run `ollama pull llama3` (or model of choice), and export:<br>`OLLAMA_URL=http://localhost:11434`<br>`OLLAMA_MODEL=llama3` |
+| **OpenAI** | Set `OPENAI_API_KEY` in `.env` or environment before launching the server. |
 
 ### 6. Run the project
 
