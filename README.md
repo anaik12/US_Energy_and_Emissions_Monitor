@@ -1,6 +1,8 @@
 
 # US Energy and Emissions Monitor Dashboard – Combined SEDS + MER Variant
 
+![Dashboard preview](./dashboard_rep_img.png)
+
 Data sources:
 
 - `Complete_SEDS.csv` (SEDS, TETCB) for state-level consumption.
